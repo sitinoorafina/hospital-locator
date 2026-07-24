@@ -1,0 +1,153 @@
+﻿Hospital_ID,Hospital_Name,State,District,Latitude,Longitude,Hospital_Type,Ownership,Beds,Emergency,ICU,Surgery,Maternity
+H001,Hospital 1,Perak,District 16,4.5975,101.0901,Specialist Hospital,Government,375,Yes,Yes,No,Yes
+H002,Hospital 2,Perak,District 12,4.5975,101.0901,Specialist Hospital,Government,904,Yes,Yes,Yes,No
+H003,Hospital 3,Selangor,District 16,3.0738,101.5183,Women & Children,Government,210,Yes,Yes,Yes,Yes
+H004,Hospital 4,Kedah,District 8,6.1248,100.3678,Women & Children,Government,774,Yes,Yes,No,Yes
+H005,Hospital 5,Perak,District 4,4.5975,101.0901,Others,Government,426,Yes,Yes,Yes,Yes
+H006,Hospital 6,Perak,District 18,4.5975,101.0901,Specialist Hospital,Government,963,Yes,Yes,Yes,Yes
+H007,Hospital 7,Pulau Pinang,District 18,5.4141,100.3288,Others,Government,653,Yes,Yes,Yes,Yes
+H008,Hospital 8,Negeri Sembilan,District 5,2.7258,101.9424,Specialist Hospital,Government,981,Yes,Yes,No,Yes
+H009,Hospital 9,Perak,District 18,4.5975,101.0901,Women & Children,Government,692,Yes,Yes,No,Yes
+H010,Hospital 10,Kelantan,District 19,6.1254,102.2381,University Hospital,Government,630,Yes,Yes,No,No
+H011,Hospital 11,Kedah,District 16,6.1248,100.3678,Specialist Hospital,Government,437,Yes,Yes,Yes,No
+H012,Hospital 12,Kelantan,District 4,6.1254,102.2381,General Hospital,Government,592,Yes,Yes,No,No
+H013,Hospital 13,Sabah,District 5,5.9804,116.0735,General Hospital,Government,409,Yes,Yes,Yes,No
+H014,Hospital 14,Pahang,District 3,3.8077,103.326,General Hospital,Government,616,Yes,Yes,Yes,No
+H015,Hospital 15,Sarawak,District 4,1.5533,110.3592,Others,Government,797,Yes,Yes,Yes,Yes
+H016,Hospital 16,Perlis,District 11,6.4449,100.2048,Specialist Hospital,Government,844,Yes,Yes,No,No
+H017,Hospital 17,Sarawak,District 8,1.5533,110.3592,Specialist Hospital,Government,677,Yes,Yes,Yes,No
+H018,Hospital 18,Johor,District 1,1.4927,103.7414,Others,Government,661,Yes,Yes,Yes,No
+H019,Hospital 19,Sabah,District 9,5.9804,116.0735,General Hospital,Government,139,Yes,Yes,Yes,Yes
+H020,Hospital 20,Perlis,District 8,6.4449,100.2048,University Hospital,Government,184,Yes,Yes,Yes,No
+H021,Hospital 21,Johor,District 1,1.4927,103.7414,General Hospital,Government,432,Yes,Yes,Yes,Yes
+H022,Hospital 22,Pahang,District 4,3.8077,103.326,Others,Government,695,Yes,Yes,Yes,No
+H023,Hospital 23,Negeri Sembilan,District 16,2.7258,101.9424,Others,Government,799,Yes,Yes,Yes,No
+H024,Hospital 24,Perlis,District 4,6.4449,100.2048,Women & Children,Government,616,Yes,Yes,Yes,Yes
+H025,Hospital 25,Melaka,District 12,2.1896,102.2501,Others,Government,615,Yes,Yes,Yes,No
+H026,Hospital 26,Kedah,District 5,6.1248,100.3678,University Hospital,Government,645,Yes,Yes,Yes,No
+H027,Hospital 27,Sabah,District 17,5.9804,116.0735,University Hospital,Government,546,Yes,Yes,No,Yes
+H028,Hospital 28,Sarawak,District 12,1.5533,110.3592,Women & Children,Government,979,Yes,Yes,No,No
+H029,Hospital 29,Kedah,District 12,6.1248,100.3678,General Hospital,Government,351,Yes,Yes,Yes,Yes
+H030,Hospital 30,Melaka,District 6,2.1896,102.2501,General Hospital,Government,927,Yes,Yes,No,Yes
+H031,Hospital 31,Johor,District 6,1.4927,103.7414,Specialist Hospital,Government,731,Yes,Yes,Yes,No
+H032,Hospital 32,Kuala Lumpur,District 11,3.139,101.6869,General Hospital,Government,231,Yes,Yes,No,Yes
+H033,Hospital 33,Johor,District 15,1.4927,103.7414,University Hospital,Government,454,Yes,Yes,No,Yes
+H034,Hospital 34,Kelantan,District 10,6.1254,102.2381,Women & Children,Government,140,Yes,Yes,No,No
+H035,Hospital 35,Melaka,District 6,2.1896,102.2501,General Hospital,Government,357,Yes,Yes,No,No
+H036,Hospital 36,Negeri Sembilan,District 4,2.7258,101.9424,Others,Government,429,Yes,Yes,Yes,Yes
+H037,Hospital 37,Perlis,District 6,6.4449,100.2048,Specialist Hospital,Government,571,Yes,Yes,Yes,Yes
+H038,Hospital 38,Melaka,District 19,2.1896,102.2501,Women & Children,Government,978,Yes,Yes,Yes,Yes
+H039,Hospital 39,Melaka,District 19,2.1896,102.2501,General Hospital,Government,966,Yes,Yes,Yes,No
+H040,Hospital 40,Pulau Pinang,District 8,5.4141,100.3288,General Hospital,Government,220,Yes,Yes,No,Yes
+H041,Hospital 41,Kelantan,District 4,6.1254,102.2381,Women & Children,Government,544,Yes,Yes,No,No
+H042,Hospital 42,Johor,District 13,1.4927,103.7414,General Hospital,Government,213,Yes,Yes,No,No
+H043,Hospital 43,Kelantan,District 9,6.1254,102.2381,Others,Government,370,Yes,Yes,No,No
+H044,Hospital 44,Perlis,District 8,6.4449,100.2048,Others,Government,451,Yes,Yes,Yes,Yes
+H045,Hospital 45,Sabah,District 12,5.9804,116.0735,Specialist Hospital,Government,461,Yes,Yes,No,No
+H046,Hospital 46,Selangor,District 12,3.0738,101.5183,General Hospital,Government,998,Yes,Yes,No,No
+H047,Hospital 47,Kedah,District 1,6.1248,100.3678,Specialist Hospital,Government,309,Yes,Yes,Yes,Yes
+H048,Hospital 48,Kuala Lumpur,District 4,3.139,101.6869,General Hospital,Government,515,Yes,Yes,No,No
+H049,Hospital 49,Johor,District 8,1.4927,103.7414,Others,Government,664,Yes,Yes,Yes,No
+H050,Hospital 50,Sarawak,District 16,1.5533,110.3592,University Hospital,Government,719,Yes,Yes,Yes,No
+H051,Hospital 51,Pulau Pinang,District 13,5.4141,100.3288,Others,Government,983,Yes,Yes,Yes,Yes
+H052,Hospital 52,Kuala Lumpur,District 3,3.139,101.6869,Specialist Hospital,Government,538,Yes,Yes,Yes,No
+H053,Hospital 53,Kedah,District 16,6.1248,100.3678,Women & Children,Government,910,Yes,Yes,No,Yes
+H054,Hospital 54,Kedah,District 16,6.1248,100.3678,Women & Children,Government,668,Yes,Yes,No,Yes
+H055,Hospital 55,Johor,District 8,1.4927,103.7414,Specialist Hospital,Government,628,Yes,Yes,No,Yes
+H056,Hospital 56,Selangor,District 15,3.0738,101.5183,Others,Government,892,Yes,Yes,No,No
+H057,Hospital 57,Pulau Pinang,District 17,5.4141,100.3288,Specialist Hospital,Government,724,Yes,Yes,No,Yes
+H058,Hospital 58,Pulau Pinang,District 3,5.4141,100.3288,University Hospital,Government,190,Yes,Yes,Yes,No
+H059,Hospital 59,Sarawak,District 17,1.5533,110.3592,Others,Government,148,Yes,Yes,Yes,Yes
+H060,Hospital 60,Kedah,District 7,6.1248,100.3678,Others,Government,824,Yes,Yes,Yes,No
+H061,Hospital 61,Perlis,District 15,6.4449,100.2048,General Hospital,Government,141,Yes,Yes,Yes,Yes
+H062,Hospital 62,Pahang,District 5,3.8077,103.326,Specialist Hospital,Government,407,Yes,Yes,Yes,Yes
+H063,Hospital 63,Pahang,District 1,3.8077,103.326,Women & Children,Government,296,Yes,Yes,No,No
+H064,Hospital 64,Perak,District 20,4.5975,101.0901,Specialist Hospital,Government,915,Yes,Yes,Yes,Yes
+H065,Hospital 65,Johor,District 13,1.4927,103.7414,Specialist Hospital,Government,260,Yes,Yes,Yes,Yes
+H066,Hospital 66,Perlis,District 15,6.4449,100.2048,Women & Children,Government,219,Yes,Yes,Yes,No
+H067,Hospital 67,Selangor,District 6,3.0738,101.5183,Women & Children,Government,612,Yes,Yes,No,No
+H068,Hospital 68,Kelantan,District 12,6.1254,102.2381,Women & Children,Government,650,Yes,Yes,No,No
+H069,Hospital 69,Negeri Sembilan,District 9,2.7258,101.9424,University Hospital,Government,460,Yes,Yes,Yes,No
+H070,Hospital 70,Pahang,District 12,3.8077,103.326,University Hospital,Government,470,Yes,Yes,No,No
+H071,Hospital 71,Kuala Lumpur,District 7,3.139,101.6869,Specialist Hospital,Government,706,Yes,Yes,No,No
+H072,Hospital 72,Sarawak,District 3,1.5533,110.3592,General Hospital,Government,241,Yes,Yes,Yes,No
+H073,Hospital 73,Pulau Pinang,District 19,5.4141,100.3288,Specialist Hospital,Government,139,Yes,Yes,Yes,No
+H074,Hospital 74,Negeri Sembilan,District 8,2.7258,101.9424,Specialist Hospital,Government,417,Yes,Yes,No,Yes
+H075,Hospital 75,Melaka,District 19,2.1896,102.2501,Specialist Hospital,Government,619,Yes,Yes,Yes,No
+H076,Hospital 76,Sarawak,District 7,1.5533,110.3592,Others,Government,980,Yes,Yes,No,Yes
+H077,Hospital 77,Kedah,District 10,6.1248,100.3678,General Hospital,Government,364,Yes,Yes,No,Yes
+H078,Hospital 78,Pahang,District 19,3.8077,103.326,University Hospital,Government,876,Yes,Yes,Yes,No
+H079,Hospital 79,Sarawak,District 16,1.5533,110.3592,Specialist Hospital,Government,773,Yes,Yes,No,No
+H080,Hospital 80,Sarawak,District 13,1.5533,110.3592,University Hospital,Government,121,Yes,Yes,Yes,Yes
+H081,Hospital 81,Kedah,District 9,6.1248,100.3678,Specialist Hospital,Government,357,Yes,Yes,No,No
+H082,Hospital 82,Selangor,District 19,3.0738,101.5183,Others,Government,248,Yes,Yes,No,Yes
+H083,Hospital 83,Kelantan,District 18,6.1254,102.2381,University Hospital,Government,369,Yes,Yes,No,Yes
+H084,Hospital 84,Johor,District 13,1.4927,103.7414,Specialist Hospital,Government,298,Yes,Yes,Yes,No
+H085,Hospital 85,Perak,District 5,4.5975,101.0901,Others,Government,817,Yes,Yes,No,No
+H086,Hospital 86,Kuala Lumpur,District 4,3.139,101.6869,Others,Government,424,Yes,Yes,Yes,No
+H087,Hospital 87,Sarawak,District 14,1.5533,110.3592,Specialist Hospital,Government,665,Yes,Yes,No,No
+H088,Hospital 88,Sarawak,District 3,1.5533,110.3592,Specialist Hospital,Government,451,Yes,Yes,No,No
+H089,Hospital 89,Kuala Lumpur,District 6,3.139,101.6869,Specialist Hospital,Government,498,Yes,Yes,No,No
+H090,Hospital 90,Kuala Lumpur,District 3,3.139,101.6869,Others,Government,919,Yes,Yes,No,No
+H091,Hospital 91,Selangor,District 15,3.0738,101.5183,Specialist Hospital,Government,743,Yes,Yes,Yes,No
+H092,Hospital 92,Sabah,District 5,5.9804,116.0735,University Hospital,Government,668,Yes,Yes,No,Yes
+H093,Hospital 93,Sabah,District 20,5.9804,116.0735,Women & Children,Government,818,Yes,Yes,Yes,Yes
+H094,Hospital 94,Perak,District 11,4.5975,101.0901,University Hospital,Government,939,Yes,Yes,Yes,No
+H095,Hospital 95,Perlis,District 18,6.4449,100.2048,University Hospital,Government,259,Yes,Yes,Yes,Yes
+H096,Hospital 96,Sabah,District 14,5.9804,116.0735,Specialist Hospital,Government,779,Yes,Yes,No,Yes
+H097,Hospital 97,Pahang,District 3,3.8077,103.326,Others,Government,675,Yes,Yes,Yes,Yes
+H098,Hospital 98,Kelantan,District 10,6.1254,102.2381,University Hospital,Government,862,Yes,Yes,No,No
+H099,Hospital 99,Kedah,District 16,6.1248,100.3678,University Hospital,Government,163,Yes,Yes,No,Yes
+H100,Hospital 100,Perlis,District 11,6.4449,100.2048,Specialist Hospital,Government,590,Yes,Yes,No,No
+H101,Hospital 101,Negeri Sembilan,District 5,2.7258,101.9424,Others,Government,710,Yes,Yes,No,No
+H102,Hospital 102,Melaka,District 16,2.1896,102.2501,Women & Children,Government,234,Yes,Yes,Yes,No
+H103,Hospital 103,Sarawak,District 2,1.5533,110.3592,University Hospital,Government,539,Yes,Yes,Yes,No
+H104,Hospital 104,Perak,District 1,4.5975,101.0901,General Hospital,Government,387,Yes,Yes,No,No
+H105,Hospital 105,Melaka,District 19,2.1896,102.2501,Others,Government,144,Yes,Yes,No,No
+H106,Hospital 106,Pulau Pinang,District 19,5.4141,100.3288,Women & Children,Government,980,Yes,Yes,Yes,Yes
+H107,Hospital 107,Perak,District 12,4.5975,101.0901,Women & Children,Government,257,Yes,Yes,Yes,Yes
+H108,Hospital 108,Kuala Lumpur,District 3,3.139,101.6869,General Hospital,Government,382,Yes,Yes,Yes,No
+H109,Hospital 109,Johor,District 18,1.4927,103.7414,General Hospital,Government,609,Yes,Yes,Yes,Yes
+H110,Hospital 110,Melaka,District 17,2.1896,102.2501,General Hospital,Government,382,Yes,Yes,No,No
+H111,Hospital 111,Perak,District 17,4.5975,101.0901,General Hospital,Government,412,Yes,Yes,Yes,No
+H112,Hospital 112,Perlis,District 15,6.4449,100.2048,General Hospital,Government,774,Yes,Yes,Yes,Yes
+H113,Hospital 113,Pahang,District 13,3.8077,103.326,Others,Government,112,Yes,Yes,Yes,Yes
+H114,Hospital 114,Negeri Sembilan,District 13,2.7258,101.9424,Others,Government,714,Yes,Yes,No,No
+H115,Hospital 115,Sabah,District 4,5.9804,116.0735,Others,Government,950,Yes,Yes,No,No
+H116,Hospital 116,Pulau Pinang,District 8,5.4141,100.3288,Women & Children,Government,606,Yes,Yes,No,No
+H117,Hospital 117,Johor,District 10,1.4927,103.7414,Women & Children,Government,883,Yes,Yes,No,No
+H118,Hospital 118,Perak,District 2,4.5975,101.0901,Others,Government,866,Yes,Yes,Yes,No
+H119,Hospital 119,Pulau Pinang,District 12,5.4141,100.3288,University Hospital,Government,934,Yes,Yes,No,Yes
+H120,Hospital 120,Selangor,District 19,3.0738,101.5183,Specialist Hospital,Government,198,Yes,Yes,Yes,No
+H121,Hospital 121,Kelantan,District 15,6.1254,102.2381,Others,Government,953,Yes,Yes,No,No
+H122,Hospital 122,Kuala Lumpur,District 15,3.139,101.6869,Others,Government,496,Yes,Yes,No,No
+H123,Hospital 123,Kedah,District 19,6.1248,100.3678,Others,Government,822,Yes,Yes,Yes,No
+H124,Hospital 124,Melaka,District 8,2.1896,102.2501,General Hospital,Government,497,Yes,Yes,Yes,No
+H125,Hospital 125,Pahang,District 2,3.8077,103.326,Women & Children,Government,235,Yes,Yes,No,No
+H126,Hospital 126,Pahang,District 12,3.8077,103.326,Women & Children,Government,376,Yes,Yes,No,Yes
+H127,Hospital 127,Kedah,District 15,6.1248,100.3678,University Hospital,Government,151,Yes,Yes,Yes,No
+H128,Hospital 128,Johor,District 16,1.4927,103.7414,Specialist Hospital,Government,440,Yes,Yes,Yes,No
+H129,Hospital 129,Pulau Pinang,District 18,5.4141,100.3288,Women & Children,Government,191,Yes,Yes,No,No
+H130,Hospital 130,Johor,District 16,1.4927,103.7414,General Hospital,Government,773,Yes,Yes,Yes,No
+H131,Hospital 131,Kelantan,District 5,6.1254,102.2381,Others,Government,817,Yes,Yes,Yes,Yes
+H132,Hospital 132,Sarawak,District 15,1.5533,110.3592,University Hospital,Government,866,Yes,Yes,No,No
+H133,Hospital 133,Perak,District 18,4.5975,101.0901,Women & Children,Government,175,Yes,Yes,No,Yes
+H134,Hospital 134,Kuala Lumpur,District 9,3.139,101.6869,Specialist Hospital,Government,612,Yes,Yes,Yes,No
+H135,Hospital 135,Negeri Sembilan,District 8,2.7258,101.9424,University Hospital,Government,202,Yes,Yes,No,Yes
+H136,Hospital 136,Kuala Lumpur,District 16,3.139,101.6869,Women & Children,Government,246,Yes,Yes,No,Yes
+H137,Hospital 137,Sarawak,District 15,1.5533,110.3592,Specialist Hospital,Government,471,Yes,Yes,No,Yes
+H138,Hospital 138,Sarawak,District 2,1.5533,110.3592,Women & Children,Government,819,Yes,Yes,No,Yes
+H139,Hospital 139,Pahang,District 10,3.8077,103.326,Others,Government,959,Yes,Yes,Yes,No
+H140,Hospital 140,Kelantan,District 16,6.1254,102.2381,Specialist Hospital,Government,890,Yes,Yes,No,No
+H141,Hospital 141,Kedah,District 14,6.1248,100.3678,General Hospital,Government,840,Yes,Yes,Yes,Yes
+H142,Hospital 142,Pahang,District 11,3.8077,103.326,Others,Government,631,Yes,Yes,No,No
+H143,Hospital 143,Negeri Sembilan,District 2,2.7258,101.9424,University Hospital,Government,145,Yes,Yes,No,Yes
+H144,Hospital 144,Kuala Lumpur,District 3,3.139,101.6869,Specialist Hospital,Government,573,Yes,Yes,No,No
+H145,Hospital 145,Negeri Sembilan,District 1,2.7258,101.9424,Others,Government,477,Yes,Yes,Yes,Yes
+H146,Hospital 146,Kedah,District 11,6.1248,100.3678,Specialist Hospital,Government,623,Yes,Yes,Yes,No
+H147,Hospital 147,Pulau Pinang,District 13,5.4141,100.3288,University Hospital,Government,980,Yes,Yes,Yes,No
+H148,Hospital 148,Pulau Pinang,District 10,5.4141,100.3288,Others,Government,873,Yes,Yes,No,No
+H149,Hospital 149,Johor,District 7,1.4927,103.7414,Specialist Hospital,Government,195,Yes,Yes,No,Yes
+H150,Hospital 150,Johor,District 15,1.4927,103.7414,Specialist Hospital,Government,726,Yes,Yes,Yes,No
+H151,Hospital 151,Johor,District 13,1.4927,103.7414,Others,Government,796,Yes,Yes,No,No
+H152,Hospital 152,Sabah,District 2,5.9804,116.0735,University Hospital,Government,967,Yes,Yes,Yes,Yes

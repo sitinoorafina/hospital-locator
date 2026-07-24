@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Public Hospital Locator Dashboard</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+        <div class="logo">
+            <h2>PHL</h2>
+            <p>Hospital Locator</p>
+        </div>
+
+        <ul>
+            <li onclick="scrollToSection('overviewSection')"><i class="fas fa-home"></i> Overview</li>
+            <li id="nearbyBtn"><i class="fas fa-location-dot"></i> Nearby Me</li>
+            <li><i class="fas fa-chart-column"></i> Analytics</li>
+            <li><i class="fas fa-circle-info"></i> About</li>
+            <li><i class="fas fa-comment"></i> Feedback</li>
+        </ul>
+    </aside>
+
+    <main class="main-content">
+
+        <section class="header">
+            <div>
+                <h1>Public Hospital Locator Dashboard (Malaysia)</h1>
+                <p>Interactive dashboard for hospital location, facilities and services</p>
+            </div>
+
+            <input type="text" id="searchHospital" placeholder="Search hospital name or ID">
+        </section>
+	<section id="overviewSection" class="overview-box">
+
+    <div class="overview-image">
+        <i class="fas fa-hospital"></i>
+    </div>
+
+    <div class="overview-text">
+        <h2><i class="fas fa-truck-medical"></i> Overview</h2>
+
+        <p>
+            This dashboard provides an interactive hospital locator for Malaysia.
+            Users can search hospitals, filter by state, hospital type and services,
+            view hospital locations on the map, identify nearby hospitals, and analyse
+            healthcare facility distribution across Malaysia.
+        </p>
+    </div>
+
+    <div class="overview-features">
+
+        <div>
+            <i class="fas fa-search"></i>
+            <span>
+                <b>Search Hospitals</b><br>
+                Find hospitals by name or ID
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-location-dot"></i>
+            <span>
+                <b>Nearby Hospitals</b><br>
+                Find nearest hospitals
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-sliders"></i>
+            <span>
+                <b>Filter & Explore</b><br>
+                Filter by state and services
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-chart-pie"></i>
+            <span>
+                <b>Data Analytics</b><br>
+                Analyse hospital distribution
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-map-location-dot"></i>
+            <span>
+                <b>Map Visualization</b><br>
+                View hospital locations
+            </span>
+        </div>
+
+        <div>
+            <i class="fas fa-building"></i>
+            <span>
+                <b>Detailed Information</b><br>
+                View facilities and services
+            </span>
+        </div>
+
+    </div>
+
+</section>
+
+        <section class="filter-bar">
+            <select id="stateFilter">
+                <option value="All">All States</option>
+            </select>
+
+            <select id="typeFilter">
+                <option value="All">All Hospital Types</option>
+            </select>
+
+            <select id="serviceFilter">
+                <option value="All">All Services</option>
+                <option value="emergency">Emergency</option>
+                <option value="icu">ICU</option>
+                <option value="surgery">Surgery</option>
+                <option value="maternity">Maternity</option>
+            </select>
+
+            <button id="resetBtn">Reset Filters</button>
+
+        </section>
+
+        <section class="cards">
+            <div class="card">
+                <i class="fas fa-hospital"></i>
+                <h3>Total Hospitals</h3>
+                <p id="totalHospitals">0</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-bed"></i>
+                <h3>Total Beds</h3>
+                <p id="totalBeds">0</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-star-of-life"></i>
+                <h3>ICU Available</h3>
+                <p id="totalICU">0</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-truck-medical"></i>
+                <h3>Emergency</h3>
+                <p id="totalEmergency">0</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-baby"></i>
+                <h3>Maternity</h3>
+                <p id="totalMaternity">0</p>
+            </div>
+        </section>
+
+        <section class="content-grid">
+
+            <div class="map-card">
+                <div class="section-title">
+                    <div>
+                        <h2>Hospital Locations Map</h2>
+                        <p>Marker colours represent hospital type</p>
+                    </div>
+                </div>
+
+                <div class="map-wrapper">
+<div class="legend">
+    <h4>Hospital Type</h4>
+
+    <p><span class="dot blue"></span> General</p>
+    <p><span class="dot red"></span> Specialist</p>
+    <p><span class="dot purple"></span> University</p>
+    <p>
+    <span class="dot" style="background-color:#00a651;"></span>
+    Health Clinic
+</p>
+    <p><span class="dot pink"></span> Women & Children</p>
+    <p><span class="dot grey"></span> Others</p>
+</div>
+
+                    <div id="map"></div>
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <h2>Hospital List</h2>
+                <div id="hospitalList"></div>
+            </div>
+
+        </section>
+
+        <section class="bottom-grid">
+            <div class="chart-box">
+                <h2>Hospitals by State</h2>
+                <canvas id="stateChart"></canvas>
+            </div>
+
+            <div class="chart-box">
+                <h2>Hospital Type Distribution</h2>
+                <canvas id="typeChart"></canvas>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Hospital Data Table</h2>
+
+<div class="table-filter">
+    <input type="text" id="tableSearch" placeholder="Search table...">
+
+    <select id="tableStateFilter">
+        <option value="All">All States</option>
+    </select>
+</div>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Hospital</th>
+                        <th>State</th>
+                        <th>Type</th>
+                        <th>Beds</th>
+                        <th>Emergency</th>
+                        <th>ICU</th>
+                        <th>Surgery</th>
+                        <th>Maternity</th>
+                    </tr>
+                </thead>
+                <tbody id="hospitalTable"></tbody>
+            </table>
+        </section>
+
+    </main>
+
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
